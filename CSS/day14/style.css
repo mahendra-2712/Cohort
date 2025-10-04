@@ -1,0 +1,51 @@
+/* css boilerplate */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* ------------------------------------------------------------------------------ */
+ #parent { 
+/*display : flex; use krne parent div k andar k sare child div ek line me aa jate h  */
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    align-items: center;    /* y axis pr align krta h */
+    justify-content: space-evenly; /* x axis pr align krta h */
+    
+
+}
+
+#box1 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+        
+}
+
+
+#box2 {
+    /* position: absolute;
+    top: 0%;
+    left: 200px; */
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+        
+}
+#box3 {
+    /* position: absolute;
+    top: 0%;
+    left: 400px; */
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+/* ------------------------------------------------------------------------------ */
