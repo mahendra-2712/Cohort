@@ -1,0 +1,110 @@
+@font-face {
+    font-family: raju;
+    src: url(../Font/Another\ Danger\ -\ Demo.otf);
+}
+
+
+@font-face {
+    font-family: Nothing;
+    src: url(../Font/Ndot-55.otf);
+}
+/* css boilerplate */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+h1{
+    color: rgb(231, 174, 208);
+    background-color: rgb(4, 5, 19);
+    font-size: 50px;
+    font-family: raju;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    text-transform:uppercase;
+}
+
+p{
+    color: rgb(226, 42, 5);
+    font-size: 20px;
+}
+h5{
+    font-family: Nothing;
+    font-size: 100px;
+    font-weight: 100;
+    color: rgb(231, 189, 73);
+}
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(150, 223, 223);
+
+} */
+
+#box1{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(orange,white,green);
+    
+}
+
+#box2{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to right, red,blue);
+    
+}
+
+.box1{
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(yellow,orange,red);
+}
+
+.box2{
+    height: 200px;
+    width: 200px;
+    background: conic-gradient(yellow,orange,red);
+}
+
+.box3{
+    height: 200px;
+    width: 200px;
+    background: conic-gradient(violet,indigo,blue,green,yellow,orange,red);
+}
+
+#outer{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(150, 223, 223);
+
+}
+
+
+#inner{
+    height: 50%;
+    width: 50%;
+    background-color: bisque;
+
+}
+
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    background-image: url(https://plus.unsplash.com/premium_photo-1686730540277-c7e3a5571553?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+
+}
+

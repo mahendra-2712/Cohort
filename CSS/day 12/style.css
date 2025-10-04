@@ -1,0 +1,63 @@
+/* css boilerplate */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* ------------------------------------------------------------------------------ */
+/* position - absolute */
+
+/* jo bhi element absolute hota hai wo uth jata hai.
+and agar tumhe us element ko move kiya to wo kisi ke uper bhi aa sakta hai. */
+
+
+#car1{
+    position: relative;
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    
+}
+
+#small{
+    position: absolute;
+    left: 50%;
+    width: 40px;
+
+    height: 40px;
+
+    background-color: yellow;
+}
+/* #car2{
+    position: absolute;
+    left: 50%;
+    width: 240px;
+    height: 340px;
+    background-color: rgb(26, 204, 61);
+
+}
+#car3{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(43, 17, 212);
+
+} */
+
+/* koi bhji element jispe position nahi hai uspr top left bottom and z-index naam ki property kaam nahi krti
+ */
+
+/* 
+ koi bhi element par absolurte lagaane se wo upar uth jaata
+hai, uski space khaali hoti hai and uski jagah baad waala
+element aa jataa hai. 
+
+top left bottom right and z-index ye sirf kaam krti hai jab
+aapka element ke paas koi position ki value ho jaise ki
+
+
+absolute relative sticky fixed */

@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #f5f7fa;
+      line-height: 1.6;
+    }
+
+    /* Header Section */
+    header {
+      background-color: #1f2a44;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    /* Section Style */
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    /* About */
+    .about {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Education */
+    .education {
+      background-color: #dceeff;
+    }
+    .education p {
+        background-color: white;
+      text-align: center;
+      font-size: 1.1rem;
+      margin: 10px auto;
+      border-radius: 6px;
+    }
+
+    /* Skills */
+    .skills {
+      background-color: #fff3cd;
+    }
+    .skills .box {
+      background: white;
+      text-align: center;
+      margin: 10px auto;
+      padding: 12px;
+      border-radius: 6px;
+      font-weight: bold;
+      width: 60%;
+      box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+    }
+
+    /* Projects */
+    .projects {
+      background-color: #ede7f6;
+    }
+    .projects .box {
+      background: white;
+      text-align: center;
+      margin: 10px auto;
+      padding: 12px;
+      border-radius: 6px;
+      width: 70%;
+      font-style: italic;
+      box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+    }
+
+    /* Contact */
+    .contact {
+      background-color: #d9fbe9;
+    }
+    .contact .box {
+      background: white;
+      text-align: center;
+      margin: 10px auto;
+      padding: 12px;
+      border-radius: 6px;
+      width: 70%;
+      box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+    }
+
+    /* Footer */
+    footer {
+      background-color: #1f2a44;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+      font-size: 0.9rem;
+    }
+  

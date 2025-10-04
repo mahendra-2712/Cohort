@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laptop Landing</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(70%);
+    }
+
+    .text-box {
+      position: absolute;
+      top: 50%;
+      right: 5%;
+      transform: translateY(-50%);
+      text-align: left;
+      max-width: 400px;
+    }
+
+    .text-box h1 {
+      font-size: 2.2rem;
+      font-weight: bold;
+      color: #40a9ff;
+      margin-bottom: 10px;
+    }
+
+    .text-box p {
+      font-size: 1.1rem;
+      color: #a8c0ff;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      padding: 12px 25px;
+      font-size: 1rem;
+      background: #fbbd08;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      color: black;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #ff9900;
+      transform: scale(1.1);
+      color: white;
+      box-shadow: 0px 4px 15px rgba(255, 153, 0, 0.6);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Background Image -->
+    <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8" alt="Laptop Background">
+    
+    <!-- Text & Button -->
+    <div class="text-box">
+      <h1>Redefine Your Experience</h1>
+      <p>Laptops designed to match your ambition</p>
+      <button class="btn">Explore Choices</button>
+    </div>
+  </div>
+</body>
+</html>
