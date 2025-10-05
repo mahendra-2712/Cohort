@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+/* position absolute with z-index */
+/* #box1 {
+  height: 200px;
+  width: 200px;
+  background-color: lightblue;
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  z-index: 5;
+  
+}
+#box2 {
+  height: 200px;
+  width: 200px;
+  background-color: lightgreen;
+  position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 50;
+  
+}
+#box3 {
+  height: 200px;
+  width: 200px;
+  background-color: lightcoral;
+  position: absolute;
+    left: 55%;
+    top: 50%;
+    z-index: 8;
+  
+}
+#box4 {
+  height: 200px;
+  width: 200px;
+  background-color: lightgoldenrodyellow;
+    position: absolute;
+        left: 60%;
+        top: 55%;
+        z-index: 44;
+} */ 
+
+
+/* transform property */
+                   /* transform translate */
+
+/* #box1{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(27, 131, 165);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+} */
+  /* agar kisi bhi div ko screen k center m lana ho to hum uska left 50% aur top 50% kr denge or uske bad transform translate(-50%,-50%) kr denge position absolute k sath */
+  
+
+
+  /* flexbox css k bare me padhna hai */
+  #parent{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: auto;
+
+  }
+  #child1{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border: 3px solid white;
+    flex-shrink: 0;
+    
+  }
+  #child2{
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    border: 3px solid white;
+    flex-shrink: 0;
+  }
+  #child3{
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    border: 3px solid white;
+    flex-shrink: 0;
+  }
